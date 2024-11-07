@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/f2ebbdaf-7384-4fc6-8e10-8df58d4515a7)
 
 # Local Development Setup for Node.js and MongoDB
 
@@ -7,7 +8,7 @@ This README will guide you through the process of setting up and testing the app
 
 Before you begin, ensure you have the following installed on your local machine:
 
-1. **Node.js** (v14 or higher) - [Install Node.js](https://nodejs.org/en/)
+1. **Node.js** (v20 or higher) - [Install Node.js](https://nodejs.org/en/)
 2. **MongoDB** (installed locally or use a cloud-based solution like MongoDB Atlas) - [Install MongoDB](https://www.mongodb.com/try/download/community)
 3. **Postman** (Optional, for API testing) - [Download Postman](https://www.postman.com/downloads/)
 
@@ -36,7 +37,7 @@ Create a file named `.env` in the root directory of your project and add the fol
 
 ```plaintext
 MONGODB_URI=mongodb://localhost:27017/your_database_name
-PORT=5000
+PORT=3000
 ```
 
 Replace `your_database_name` with the name you want for your local MongoDB database.
